@@ -57,8 +57,8 @@
 
                     $('select').change(function(e, v) {
                         var idx=e.target.value
-                        document.getElementById('down_src').href="http://rbx3lmpid.hb-bkt.clouddn.com/"+idx+".mp4"
-                        document.getElementById('video_src').src="http://qn.suannaiguy.cn/"+idx+".mp4"
+                        document.getElementById('down_src').href="http://qn.suannaiguy.cn/"+idx+".mp4"
+                        document.getElementById('video_src').src="http://rbx3lmpid.hb-bkt.clouddn.com/"+idx+".mp4"
                         $('.result').html('你选择了第' + e.target.selectedIndex + '项，值是' + e.target.value);
                         var videoplayer=document.getElementById("video")
                         videoplayer.load()
